@@ -1,0 +1,10 @@
+#__next {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: rgb(168, 188, 117);
+}
+#__next > main {
+  margin: 1rem auto 0;
+  max-width: 80ch;
+}
